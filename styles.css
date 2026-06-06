@@ -10,6 +10,10 @@ body {
     margin: 0 1.5em;
 }
 
+body p {
+    max-width: 66ch;
+}
+
 .highlight {
     background-color:#454138;
     color: #dcd8c0;
