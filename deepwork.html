@@ -12,7 +12,31 @@
     <div class="container">
 
       <article>
-        <h4>Day 80 (8.14.2026) ▪▪▪▪|</h4>
+        <h4>Day 81 (8.15.2026) ▪▪▪▪|▪▪|▪▪</h4>
+        <p>Primary topic</p>
+        <ul>
+          <li>Finishing Up with JavaScript</li>
+        </ul>
+        <p>
+          * Project - Battleship
+        </p>
+        <p>What I Learned</p>
+        <ul>
+          <li>restoreAllMocks vs. resetAllMocks</li>
+          <li>forEach vs. for...of: forEach executes once for every single element in the array, 
+            so return acts like continue for..of is a normal loop block, not a function call</li>
+          <li>expect(consoleBattleShip()).toThrow(); <- This does not work, because JavaScript executes the function right away, 
+            where it throws an error and crashes the entire test. Hence you have to use callback wrapper () => consoleBattleShip()
+            -> try..catch : so try catch is telling javascript to expect there is a possibility that the line of code might fail. so do not freak out once it does and terminate the entire operation? 
+          </li>
+        </ul>
+        <p>
+          <em>Tomorrow: Continue with the project</em>
+        </p>
+      </article>
+
+      <article>
+        <h4>Day 80 (8.14.2026) ▪▪▪▪</h4>
         <p>Primary topic</p>
         <ul>
           <li>Finishing Up with JavaScript</li>
